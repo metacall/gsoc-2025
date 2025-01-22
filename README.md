@@ -43,7 +43,7 @@ You can also propose your own.
 
 **Expected size of the project**: Large (350 hours)
 
-**Difficulty rating**: Hard
+**Difficulty rating**: Medium
 
 **Description**:
 
@@ -67,10 +67,40 @@ All this process should be documented with markdown, also we will highly value i
  - MetaCall Commercial FaaS: https://dashboard.metacall.io
  - MetaCall YouTube Channel: https://www.youtube.com/c/MetaCall
 
+### Rust Port Update
+
+**Skills**: Rust
+
+**Expected size of the project**: Small (90 hours)
+
+**Difficulty rating**: Medium
+
+**Description**:
+
+[Rust Port](https://crates.io/crates/metacall) is the wrapper of MetaCall for using multiple languages from Rust. We support Rust already but recently we have been using it in a more advanced environment, for example in our [MetaSSR](https://github.com/metacall/metassr) project from last GSoC year. We have noticed that there is some limitations with the current port implementation that must be addressed:
+
+  1) from improvements in the usage of the API,
+  2) sugar macros for easy usage (HList),
+  3) bugs in the design of the async API
+  4) bugs in the implementation of the pointer API
+  5) or memory leaks, specially with async,
+  6) in the build system, allow to use an already installed version of MetaCall instead of compiling it from scratch.
+
+Those problems should be addressed and it will be also interesting to improve the documentation, tests and examples.
+
+**Expected outcomes**: Address all the current requirements for MetaSSR project and the bugs related to the current version. Add more tests, documentation and examples to the project. Writing an article or tutorial showing the usage of the Rust project would be also interesting.
+
+**Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
+
+**Resources**:
+ - MetaCall Rust Port Code: https://github.com/metacall/core/tree/5b592ac0e9a8e498e3e706623d0a788276f566e0/source/ports/rs_port
+ - MetaSSR: https://github.com/metacall/metassr
+ - Previous Work: https://github.com/metacall/core/pull/538
+ - Previous Issues: https://github.com/metacall/core/pull/527
+ - HList Pattern: https://github.com/plausiblelabs/hlist-rs 
 
 
 TODO:
-Rust port - Small
 Update rust loader - Medium
 Release Distributables CI (Extending existing CI) - Small
 Implement C support on Windows, MacOS Core & Distributables - Large
