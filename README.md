@@ -99,15 +99,32 @@ Those problems should be addressed and it will be also interesting to improve th
  - Previous Issues: https://github.com/metacall/core/pull/527
  - HList Pattern: https://github.com/plausiblelabs/hlist-rs
 
+### Implement Core CI Support for C & Distributables
 
-##############################
-TODO:
-Implement C support on Windows, MacOS Core & Distributables - Large
-#######################
+**Skills**: GitHub Actions, C/C++, CMake Build System, Homebrew, Guix, Windows Package Managers
+
+**Expected size of the project**: Large (350 hours)
+
+**Difficulty rating**: Hard
+
+**Description**:
+
+MetaCall Core has support for C by using `libffi`, `libclang` and `tcc`. This is widely tested in Linux on the `metacall/core` CI but lacks the implementation for MacOs and Windows. The objective of this project is to provide testing support in the Core for [Windows](https://github.com/metacall/core/pull/458) and [MacOs](https://github.com/metacall/core/pull/445) platforms, and once this is done we should implement this in the Distributables repositories. For this requirement, we will need to implement it in Guix (Linux), Homebrew (MacOs) and manually installing with Batch (Windows). It is not easy because the task requires knowledge of CMake build system and knowledge about different architectures. It willl be difficult but the final result of this is that we will be to bootstrap metacall itself with this. All the platforms will contain metacall.h and the metacall library and we can generate the API of metacall itself for multiples languages by using the C Loader. The explanation of this idea itself can be difficult because we are assuming some previous basic knowledge on MetaCall Core, but if you are intereseted you can ask in our chat groups for further explanation.
+
+**Expected outcomes**: MacOs and Windows C Loader support in the Core and the distribution of the C Loader for Windows, MacOs and Linux. We should able to run things like: `metacall test.c`, once this is implemented.
+
+**Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
+
+**Resources**:
+ - Previous Work: https://github.com/metacall/core/pull/458 & https://github.com/metacall/core/pull/445
+ - Known Issues: https://github.com/metacall/core/issues/442
+ - Guix `libclang`: https://git.savannah.gnu.org/cgit/guix.git/tree/gnu/packages/llvm.scm#n2160
+ - Guix `tcc`: https://packages.guix.gnu.org/packages/tcc/
+ - Guix `libffi`: https://packages.guix.gnu.org/packages/libffi
 
 ### Scala Port with GraalVM Comparison
 
-**Skills**: Scala, GraalVM, Language Interoperability
+**Skills**: Scala, GraalVM, Java, Language Interoperability
 
 **Expected size of the project**: Small (90 hours)
 
