@@ -103,9 +103,7 @@ Those problems should be addressed and it will be also interesting to improve th
 ##############################
 TODO:
 Implement C support on Windows, MacOS Core & Distributables - Large
-Connect examples, faas, deploy and install with test center - Medium
 #######################
-
 
 ### Scala Port with GraalVM Comparison
 
@@ -287,6 +285,28 @@ Last year we connected the [Distributables with the Core](https://github.com/met
  - MetaCall Distributable Windows: https://github.com/metacall/distributable-windows
  - MetaCall Distributable MacOS: https://github.com/metacall/distributable-macos
  - MetaCall Distributable Linux: https://github.com/metacall/distributable-linux
+
+### Connect Examples with MetaCall Test Center
+
+**Skills**: Python, DevOps, GitHub Actions, Yaml
+
+**Expected size of the project**: Medium (175 hours)
+
+**Difficulty rating**: Medium
+
+**Description**:
+
+Last year we implemented the [MetaCall Testing Center](https://github.com/metacall/testing-center) based on [this idea from GSoC](https://github.com/metacall/gsoc-2024?tab=readme-ov-file#metacall-examples-ci). This project aims to make this fully functional and work with existing examples and versions. The `metacall/install`, `metacall/deploy` and `metacall/faas` repositories should be connected with this one, and also the examples. On any modification of those repositories or the examples themselves, the CI of this repo should be triggered and it must test all the examples with the newer versions so we can verify all examples work and also we do integration testing for all the tools. By this way we can ensure that we keep up to date all the tools and if we break something, we can monitor that easily.
+
+**Expected outcomes**: All the existing examples must work with the testing center, and this CI must be connected with the deploy, faas and install repos. The new examples must be added by using yaml and we must validate them. They also must work on Windows, Linux and MacOS. All the remaining features which are not implemented must be implemented to fullfill the requirements described.
+
+**Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
+
+**Resources**:
+ - MetaCall Examples: https://github.com/metacall/examples
+ - MetaCall Install: https://github.com/metacall/install
+ - MetaCall Deploy: https://github.com/metacall/deploy
+ - MetaCall FaaS: https://github.com/metacall/faas
 
 ## Find Us
 
