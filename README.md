@@ -107,10 +107,46 @@ TODO:
 Release Distributables CI (Extending existing CI) - Small
 Implement C support on Windows, MacOS Core & Distributables - Large
 Connect examples, faas, deploy and install with test center - Medium
-Java Port?
 #######################
 
 
+### Scala Port with GraalVM Comparison
+
+**Skills**: Scala, GraalVM, Language Interoperability
+
+**Expected size of the project**: Small (90 hours)
+
+**Difficulty rating**: Medium
+
+**Description**:
+
+The aim of this project is to showcase the capabilities of the existing MetaCall Scala Port by comparing its usage with GraalVM for polyglot programming. The project will involve creating a small example application that demonstrates calling other languages (e.g., Python or JavaScript) from Scala using MetaCall and from Java using GraalVM. The goal is to highlight how MetaCall simplifies polyglot development compared to GraalVM in terms of setup, ease of use, and developer experience.
+
+Key aspects to be addressed:
+ - Using the Scala Port: Leverage the existing MetaCall Scala Port to execute Python or JavaScript code directly from Scala.
+ - GraalVM Comparison: Build the same example using GraalVM with Java as the primary language, integrating either Python or JavaScript.
+ - Example Application: Create a small, practical example, such as:
+   - Calling a Python function to process a dataset (e.g., summing numbers or sorting).
+   - Executing JavaScript code for simple calculations (e.g., a factorial function).
+
+Comparison Criteria:
+ - Simplicity: Highlight the difference in setup and usage for developers.
+ - Developer Performance (optional): Compare time or cost to set up and develop the example with each technology.
+ - Documentation: Provide clear instructions and a side-by-side comparison of the two approaches, including code examples for both.
+
+This project will focus on demonstrating how MetaCall provides a more ergonomic and straightforward approach to integrating multiple languages into a single project compared to GraalVM.
+
+**Expected outcomes**:
+ - A practical example showcasing MetaCall's Scala Port and its ability to execute scripts from other languages.
+ - A comparison with GraalVM in terms of setup, ease of use, and developer experience.
+ - Comprehensive documentation detailing the comparison, including code snippets, setup instructions, and insights into the pros and cons of each approach.
+
+**Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
+
+**Resources**:
+ - MetaCall Scala Port: https://github.com/metacall/scala-port
+ - GraalVM Documentation: https://www.graalvm.org/docs/
+ - Example of GraalVM Polyglot Programming: https://www.graalvm.org/reference-manual/polyglot/
 
 ### Zig Port Implementation
 
@@ -143,8 +179,6 @@ Additionally, the project should produce a basic tutorial or article showcasing 
  - Prior Work: https://github.com/metacall/core/tree/5b592ac0e9a8e498e3e706623d0a788276f566e0/source/ports/zig_port
  - MetaCall Core: https://github.com/metacall/core
  - Zig Documentation: https://ziglang.org/documentation/master/
-
-
 
 ### Rust Loader Update
 
