@@ -47,12 +47,12 @@ You can also propose your own.
 
 **Description**:
 
-At the moment of writing, MetaCall has reached a stable point where adding new features to the tooling is not as necessary as showing the usage of the tooling itself. In this project we want to create a tutorial showing the full lifecycle of developing a complete application with MetaCall. The project has complete freedom for selecting language or framework for developing it, it will be interesting to use new technologies and also well known if possible. For achieving this, we will need to cover:
+At the moment of writing, MetaCall has reached a stable point where showing the usage of the tooling itself is the most important. In this project we want to create a tutorial showing the full lifecycle of developing a complete application with MetaCall. The project has complete freedom for selecting language or framework for developing it, it will be interesting to use new technologies and also well known if possible. For achieving this, we will need to cover:
 
  1) Explain how to install MetaCall in Windows, Linux and MacOs.
  2) Develop a polyglot app with MetaCall, including Frontend, Backend and some services, for example using Python for doing something related to AI or math which cannot be done with NodeJS.
  3) Show how to develop the whole service locally with Deploy and FaaS tools.
- 4) Deploy to the commercial FaaS and show the final app in production.
+ 4) Deploy to both FaaS and show the final app in production.
 
 All this process should be documented with markdown, also we will highly value if there are videos that we can upload to MetaCall's YouTube Channel. This should show the whole lifecycle of development and should be basic enough for people that does not know anything about MetaCall beforehand.
 
@@ -66,6 +66,8 @@ All this process should be documented with markdown, also we will highly value i
  - MetaCall FaaS: https://github.com/metacall/faas
  - MetaCall Commercial FaaS: https://dashboard.metacall.io
  - MetaCall YouTube Channel: https://www.youtube.com/c/MetaCall
+
+---
 
 ### Rust Port Update
 
@@ -99,6 +101,8 @@ Those problems should be addressed and it will be also interesting to improve th
  - Previous Issues: https://github.com/metacall/core/pull/527
  - HList Pattern: https://github.com/plausiblelabs/hlist-rs
 
+---
+
 ### Implement Core CI Support for C & Distributables
 
 **Skills**: GitHub Actions, C/C++, CMake Build System, Homebrew, Guix, Windows Package Managers
@@ -121,6 +125,8 @@ MetaCall Core has support for C by using `libffi`, `libclang` and `tcc`. This is
  - Guix `libclang`: https://git.savannah.gnu.org/cgit/guix.git/tree/gnu/packages/llvm.scm#n2160
  - Guix `tcc`: https://packages.guix.gnu.org/packages/tcc/
  - Guix `libffi`: https://packages.guix.gnu.org/packages/libffi
+
+---
 
 ### Scala Port with GraalVM Comparison
 
@@ -160,6 +166,8 @@ This project will focus on demonstrating how MetaCall provides a more ergonomic 
  - GraalVM Documentation: https://www.graalvm.org/docs/
  - Example of GraalVM Polyglot Programming: https://www.graalvm.org/reference-manual/polyglot/
 
+---
+
 ### Zig Port Implementation
 
 **Skills**: Zig, Systems Programming, C
@@ -192,6 +200,8 @@ Additionally, the project should produce a basic tutorial or article showcasing 
  - MetaCall Core: https://github.com/metacall/core
  - Zig Documentation: https://ziglang.org/documentation/master/
 
+---
+
 ### Rust Loader Update
 
 **Skills**: Rust
@@ -211,6 +221,10 @@ Few years ago [Rust Loader was implemented](https://github.com/metacall/gsoc-202
 **Resources**:
  - MetaCall Rust Loader Code: https://github.com/metacall/core/tree/5b592ac0e9a8e498e3e706623d0a788276f566e0/source/loaders/rs_loader
  - Previous Work: https://github.com/metacall/core/issues/443
+
+
+---
+
 
 ### Medium Sized Tutorial: Mini Polyglot Blog Application
 
@@ -246,6 +260,10 @@ Documentation will explain how to:
  - MetaCall Deploy: https://github.com/metacall/deploy
  - MetaCall FaaS: https://github.com/metacall/faas
 
+
+---
+
+
 ### Medium Sized Tutorial: Weather Dashboard with Polyglot Microservices
 
 **Skills**: NodeJS, Python, VueJS / Svelte, Markdown
@@ -279,6 +297,8 @@ Documentation will include:
  - MetaCall Deploy: https://github.com/metacall/deploy
  - MetaCall FaaS: https://github.com/metacall/faas
 
+---
+
 ### Release Distributables from Core
 
 **Skills**: DevOps, GitHub Actions, C/C++, Build Systems, Bash, Batch
@@ -303,6 +323,8 @@ Last year we connected the [Distributables with the Core](https://github.com/met
  - MetaCall Distributable MacOS: https://github.com/metacall/distributable-macos
  - MetaCall Distributable Linux: https://github.com/metacall/distributable-linux
 
+---
+
 ### Connect Examples with MetaCall Test Center
 
 **Skills**: Python, DevOps, GitHub Actions, Yaml
@@ -324,6 +346,8 @@ Last year we implemented the [MetaCall Testing Center](https://github.com/metaca
  - MetaCall Install: https://github.com/metacall/install
  - MetaCall Deploy: https://github.com/metacall/deploy
  - MetaCall FaaS: https://github.com/metacall/faas
+
+---
 
 ## Find Us
 
