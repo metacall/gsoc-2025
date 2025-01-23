@@ -100,13 +100,49 @@ Those problems should be addressed and it will be also interesting to improve th
  - HList Pattern: https://github.com/plausiblelabs/hlist-rs
 
 
+
+
 ##############################
 TODO:
 Release Distributables CI (Extending existing CI) - Small
 Implement C support on Windows, MacOS Core & Distributables - Large
 Connect examples, faas, deploy and install with test center - Medium
-Zig port - Medium
+Java Port?
 #######################
+
+
+
+### Zig Port Implementation
+
+**Skills**: Zig, Systems Programming, C
+
+**Expected size of the project**: Medium (175 hours)
+
+**Difficulty rating**: Medium
+
+**Description**:
+
+The goal of this project is to create a new Port for MetaCall in Zig, allowing Zig programs to call and integrate other languages like JavaScript, Python, Ruby, and more. This project will require designing and implementing the Zig port from scratch, leveraging Zig's unique features such as comptime to simplify and improve the API's ergonomics for end users. This project will need to implement all supported types of MetaCall, also async APIs and different loading methodologies. Key aspects to be addressed:
+
+ - Language Interoperability: Develop the necessary bindings and functionality to enable Zig to call functions from other supported MetaCall languages.
+ - API Design: Use comptime to build a concise, ergonomic, and type-safe API that makes it easy for developers to integrate MetaCall into their Zig projects.
+ - Build System: Ensure the port supports using an already installed version of MetaCall without requiring a full recompilation.
+ - Testing and Documentation: Include extensive tests, documentation, and usage examples.
+ - Memory Safety: Pay special attention to avoiding memory leaks and ensuring safe integration with Zig's memory model.
+
+Additionally, the project should produce a basic tutorial or article showcasing the Zig port, providing examples of how it can be used to create polyglot applications.
+
+**Expected outcomes**: 
+ - A fully functional Zig port for MetaCall that supports calling multiple languages.
+ - Comprehensive documentation, tests, and usage examples.
+ - A tutorial or article demonstrating how developers can use the Zig port to build polyglot applications.
+
+**Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
+
+**Resources**:
+ - Prior Work: https://github.com/metacall/core/tree/5b592ac0e9a8e498e3e706623d0a788276f566e0/source/ports/zig_port
+ - MetaCall Core: https://github.com/metacall/core
+ - Zig Documentation: https://ziglang.org/documentation/master/
 
 
 
@@ -120,9 +156,9 @@ Zig port - Medium
 
 **Description**:
 
-Few years ago [Rust Loader was implemented](https://github.com/metacall/gsoc-2022?tab=readme-ov-file#rust-loader-support) but the code has became outdated due to nature of Rust Compiler unstable API / ABI. The idea of this project is to update to the latest version and add more tests and examples with tutorials. It will be also interesting to find a portable version, or at least to prevent depending on unstable Rust Compiler API (although I am not sure this is possible).
+Few years ago [Rust Loader was implemented](https://github.com/metacall/gsoc-2022?tab=readme-ov-file#rust-loader-support) but the code has became outdated due to nature of Rust Compiler unstable API / ABI. The idea of this project is to update to the latest version and add more tests and examples with tutorials. It will be also interesting to find a portable version, or at least to prevent depending on unstable Rust Compiler API (although I am not sure this is possible). Showing examples of mixing Rust and C++ would or script languages using Rust directly without need of using macros in the original Rust code would be also interesting, also [updating existing examples](https://github.com/metacall/python-rust-melody-example). Adding support for more types will be also interesting.
 
-**Expected outcomes**: Implement a fully functional version of the Rust Loader with the latest compiler API. Extend the functionalities that are not implemented and provide more tests and examples with some tutorials about how to use it.
+**Expected outcomes**: Implement a fully functional version of the Rust Loader with the latest compiler API. Extend the functionalities that are not implemented and provide more tests and examples with some tutorials about how to use it. Update existing tutorials using Rust Loader.
 
 **Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
 
