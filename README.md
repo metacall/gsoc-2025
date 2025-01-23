@@ -97,7 +97,38 @@ Those problems should be addressed and it will be also interesting to improve th
  - MetaSSR: https://github.com/metacall/metassr
  - Previous Work: https://github.com/metacall/core/pull/538
  - Previous Issues: https://github.com/metacall/core/pull/527
- - HList Pattern: https://github.com/plausiblelabs/hlist-rs 
+ - HList Pattern: https://github.com/plausiblelabs/hlist-rs
+
+
+##############################
+TODO:
+Release Distributables CI (Extending existing CI) - Small
+Implement C support on Windows, MacOS Core & Distributables - Large
+Connect examples, faas, deploy and install with test center - Medium
+Zig port - Medium
+#######################
+
+
+
+### Rust Loader Update
+
+**Skills**: Rust
+
+**Expected size of the project**: Medium (175 hours)
+
+**Difficulty rating**: Hard
+
+**Description**:
+
+Few years ago [Rust Loader was implemented](https://github.com/metacall/gsoc-2022?tab=readme-ov-file#rust-loader-support) but the code has became outdated due to nature of Rust Compiler unstable API / ABI. The idea of this project is to update to the latest version and add more tests and examples with tutorials. It will be also interesting to find a portable version, or at least to prevent depending on unstable Rust Compiler API (although I am not sure this is possible).
+
+**Expected outcomes**: Implement a fully functional version of the Rust Loader with the latest compiler API. Extend the functionalities that are not implemented and provide more tests and examples with some tutorials about how to use it.
+
+**Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
+
+**Resources**:
+ - MetaCall Rust Loader Code: https://github.com/metacall/core/tree/5b592ac0e9a8e498e3e706623d0a788276f566e0/source/loaders/rs_loader
+ - Previous Work: https://github.com/metacall/core/issues/443
 
 ### Medium Sized Tutorial: Mini Polyglot Blog Application
 
@@ -165,13 +196,6 @@ Documentation will include:
  - MetaCall Install: https://github.com/metacall/install
  - MetaCall Deploy: https://github.com/metacall/deploy
  - MetaCall FaaS: https://github.com/metacall/faas
-
-
-TODO:
-Update rust loader - Medium
-Release Distributables CI (Extending existing CI) - Small
-Implement C support on Windows, MacOS Core & Distributables - Large
-Connect examples, faas, deploy and install with test center - Medium
 
 ## Find Us
 
