@@ -100,11 +100,8 @@ Those problems should be addressed and it will be also interesting to improve th
  - HList Pattern: https://github.com/plausiblelabs/hlist-rs
 
 
-
-
 ##############################
 TODO:
-Release Distributables CI (Extending existing CI) - Small
 Implement C support on Windows, MacOS Core & Distributables - Large
 Connect examples, faas, deploy and install with test center - Medium
 #######################
@@ -266,6 +263,30 @@ Documentation will include:
  - MetaCall Install: https://github.com/metacall/install
  - MetaCall Deploy: https://github.com/metacall/deploy
  - MetaCall FaaS: https://github.com/metacall/faas
+
+### Release Distributables from Core
+
+**Skills**: DevOps, GitHub Actions, C/C++, Build Systems, Bash, Batch
+
+**Expected size of the project**: Medium (175 hours)
+
+**Difficulty rating**: Medium
+
+**Description**:
+
+Last year we connected the [Distributables with the Core](https://github.com/metacall/gsoc-2024/?tab=readme-ov-file#connect-core-ci-with-distributables) but we plan to extend this further and allow to automatically test master and new versions for each platform. So every time we release a new version or we push to master, it gets tested in the latest version or in the tagged version, and it automatically generates a commit updating to the new version if everything worked. This will act as an extension to the previous project, providing the full automatic lifecycle of development and releases for all platforms. It is also expected to make it work with the install scripts CI, so we can test it from core to the install repository.
+
+**Expected outcomes**: Full lifecycle working and validated for MacOS, Windows, Linux. Tested for master and tagging versions and also including the install.
+
+**Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
+
+**Resources**:
+ - MetaCall Core Windows Dispatch: https://github.com/metacall/core/blob/5b592ac0e9a8e498e3e706623d0a788276f566e0/.github/workflows/windows-test.yml#L68
+ - MetaCall Core MacOS Dispatch: https://github.com/metacall/core/blob/5b592ac0e9a8e498e3e706623d0a788276f566e0/.github/workflows/macos-test.yml#L100
+ - MetaCall Core Linux Dispatch: https://github.com/metacall/core/blob/5b592ac0e9a8e498e3e706623d0a788276f566e0/.github/workflows/linux-test.yml#L70
+ - MetaCall Distributable Windows: https://github.com/metacall/distributable-windows
+ - MetaCall Distributable MacOS: https://github.com/metacall/distributable-macos
+ - MetaCall Distributable Linux: https://github.com/metacall/distributable-linux
 
 ## Find Us
 
