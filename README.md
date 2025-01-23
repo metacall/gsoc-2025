@@ -37,7 +37,7 @@ We **highly recommend you to ask for a review** anytime to the community or ment
 
 You can also propose your own.
 
-### Full Tutorial with Frontend & Backend & DB or Services
+### Full Tutorial: Frontend & Backend & DB or Services
 
 **Skills**: NodeJS / TypeScript, Python, React / Angular, Others, Markdown
 
@@ -98,6 +98,73 @@ Those problems should be addressed and it will be also interesting to improve th
  - Previous Work: https://github.com/metacall/core/pull/538
  - Previous Issues: https://github.com/metacall/core/pull/527
  - HList Pattern: https://github.com/plausiblelabs/hlist-rs 
+
+### Medium Sized Tutorial: Mini Polyglot Blog Application
+
+**Skills**: NodeJS / TypeScript, Python, React / Angular, Markdown
+
+**Expected size of the project**: Medium (175 hours)
+
+**Difficulty rating**: Medium
+
+**Description**:
+
+As shown in [the first idea](https://github.com/metacall/gsoc-2025/tree/main?tab=readme-ov-file#full-tutorial-with-frontend--backend--db-or-services), this project involves creating a small, polyglot blog application that showcases MetaCall's ability to integrate different languages seamlessly. The blog will have basic features like creating, editing, and displaying posts, but different parts of the app will be implemented in different languages.
+
+Key deliverables:
+
+ - Frontend: Build a simple blog UI using React or Angular.
+ - Backend: Implement REST or GraphQL APIs using NodeJS for blog post management.
+ - Additional Service: Use Python to generate automated blog summaries using an AI library like HuggingFace or OpenAI's API.
+ - Cloud Deployment: Demonstrate local development and deploy the app using MetaCall's FaaS and deployment tools.
+
+Documentation will explain how to:
+
+ - Set up MetaCall.
+ - Develop and test the app locally.
+ - Deploy to the cloud using MetaCall's tools.
+
+**Expected outcomes**: A mini blog application with frontend, backend, and a Python-based AI service. The project should include markdown documentation and sample code.
+
+**Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
+
+**Resources**:
+ - MetaCall Install: https://github.com/metacall/install
+ - MetaCall Deploy: https://github.com/metacall/deploy
+ - MetaCall FaaS: https://github.com/metacall/faas
+
+### Medium Sized Tutorial: Weather Dashboard with Polyglot Microservices
+
+**Skills**: NodeJS, Python, VueJS / Svelte, Markdown
+
+**Expected size of the project**: Medium (175 hours)
+
+**Difficulty rating**: Medium
+
+**Description**:
+
+As shown in [the first idea](https://github.com/metacall/gsoc-2025/tree/main?tab=readme-ov-file#full-tutorial-with-frontend--backend--db-or-services), the aim of this project is to create a weather dashboard using MetaCall to mix services implemented in different languages. The dashboard will provide weather data, forecasts, and analytics.
+
+Key deliverables:
+
+ - Frontend: A weather dashboard UI built with VueJS or Svelte.
+ - Backend: Use NodeJS to fetch live weather data from a public API (e.g., OpenWeatherMap).
+ - Additional Service: Use Python to calculate weather statistics, such as average temperature or trend analysis over time.
+ - Cloud Deployment: Deploy the weather app on MetaCall's FaaS platform and showcase it running online.
+
+Documentation will include:
+
+ - Step-by-step guide to building and integrating each component.
+ - Instructions for deploying the app to MetaCall's cloud.
+
+**Expected outcomes**: A weather dashboard app with a clean UI, backend data fetching, and Python-powered analytics, all integrated and deployed using MetaCall.
+
+**Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
+
+**Resources**:
+ - MetaCall Install: https://github.com/metacall/install
+ - MetaCall Deploy: https://github.com/metacall/deploy
+ - MetaCall FaaS: https://github.com/metacall/faas
 
 
 TODO:
