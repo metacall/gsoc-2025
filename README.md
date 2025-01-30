@@ -92,7 +92,7 @@ Those problems should be addressed and it will be also interesting to improve th
 
 **Expected outcomes**: Address all the current requirements for MetaSSR project and the bugs related to the current version. Add more tests, documentation and examples to the project. Writing an article or tutorial showing the usage of the Rust project would be also interesting.
 
-**Possible mentors**: Vicente Eduardo Ferrer Garcia, Fernando Vaño Garcia, Gil Arasa Verge
+**Possible mentors**: Vicente Eduardo Ferrer Garcia, Fernando Vaño Garcia, Gil Arasa Verge, Param Siddharth
 
 **Resources**:
  - MetaCall Rust Port Code: https://github.com/metacall/core/tree/5b592ac0e9a8e498e3e706623d0a788276f566e0/source/ports/rs_port
@@ -117,7 +117,7 @@ MetaCall Core has support for C by using `libffi`, `libclang` and `tcc`. This is
 
 **Expected outcomes**: MacOs and Windows C Loader support in the Core and the distribution of the C Loader for Windows, MacOs and Linux. We should able to run things like: `metacall test.c`, once this is implemented.
 
-**Possible mentors**: Vicente Eduardo Ferrer Garcia, Fernando Vaño Garcia, Gil Arasa Verge
+**Possible mentors**: Vicente Eduardo Ferrer Garcia, Fernando Vaño Garcia, Gil Arasa Verge, Param Siddharth
 
 **Resources**:
  - Previous Work: https://github.com/metacall/core/pull/458 & https://github.com/metacall/core/pull/445
@@ -159,7 +159,7 @@ This project will focus on demonstrating how MetaCall provides a more ergonomic 
  - A comparison with GraalVM in terms of setup, ease of use, and developer experience.
  - Comprehensive documentation detailing the comparison, including code snippets, setup instructions, and insights into the pros and cons of each approach.
 
-**Possible mentors**: Alexandre Gimenez Fernandez
+**Possible mentors**: Alexandre Gimenez Fernandez, Param Siddharth
 
 **Resources**:
  - MetaCall Scala Port: https://github.com/metacall/scala-port
