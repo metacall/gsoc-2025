@@ -58,7 +58,7 @@ All this process should be documented with markdown, also we will highly value i
 
 **Expected outcomes**: A complete tutorial written in markdown, with the code of the sample application developed, images and videos (or any other resource that can help to explain better the tutorial).
 
-**Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
+**Possible mentors**: Vicente Eduardo Ferrer Garcia, Jose Antonio Dominguez, Thomas Rory Gummerson, Alexandre Gimenez Fernandez, Raj Aryan
 
 **Resources**:
  - MetaCall Install: https://github.com/metacall/install
@@ -92,7 +92,7 @@ Those problems should be addressed and it will be also interesting to improve th
 
 **Expected outcomes**: Address all the current requirements for MetaSSR project and the bugs related to the current version. Add more tests, documentation and examples to the project. Writing an article or tutorial showing the usage of the Rust project would be also interesting.
 
-**Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
+**Possible mentors**: Vicente Eduardo Ferrer Garcia, Fernando Vaño Garcia, Gil Arasa Verge
 
 **Resources**:
  - MetaCall Rust Port Code: https://github.com/metacall/core/tree/5b592ac0e9a8e498e3e706623d0a788276f566e0/source/ports/rs_port
@@ -117,7 +117,7 @@ MetaCall Core has support for C by using `libffi`, `libclang` and `tcc`. This is
 
 **Expected outcomes**: MacOs and Windows C Loader support in the Core and the distribution of the C Loader for Windows, MacOs and Linux. We should able to run things like: `metacall test.c`, once this is implemented.
 
-**Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
+**Possible mentors**: Vicente Eduardo Ferrer Garcia, Fernando Vaño Garcia, Gil Arasa Verge
 
 **Resources**:
  - Previous Work: https://github.com/metacall/core/pull/458 & https://github.com/metacall/core/pull/445
@@ -159,7 +159,7 @@ This project will focus on demonstrating how MetaCall provides a more ergonomic 
  - A comparison with GraalVM in terms of setup, ease of use, and developer experience.
  - Comprehensive documentation detailing the comparison, including code snippets, setup instructions, and insights into the pros and cons of each approach.
 
-**Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
+**Possible mentors**: Alexandre Gimenez Fernandez
 
 **Resources**:
  - MetaCall Scala Port: https://github.com/metacall/scala-port
@@ -193,7 +193,7 @@ Additionally, the project should produce a basic tutorial or article showcasing 
  - Comprehensive documentation, tests, and usage examples.
  - A tutorial or article demonstrating how developers can use the Zig port to build polyglot applications.
 
-**Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
+**Possible mentors**: Vicente Eduardo Ferrer Garcia, Fernando Vaño Garcia, Gil Arasa Verge
 
 **Resources**:
  - Prior Work: https://github.com/metacall/core/tree/5b592ac0e9a8e498e3e706623d0a788276f566e0/source/ports/zig_port
@@ -216,12 +216,11 @@ Few years ago [Rust Loader was implemented](https://github.com/metacall/gsoc-202
 
 **Expected outcomes**: Implement a fully functional version of the Rust Loader with the latest compiler API. Extend the functionalities that are not implemented and provide more tests and examples with some tutorials about how to use it. Update existing tutorials using Rust Loader.
 
-**Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
+**Possible mentors**: Vicente Eduardo Ferrer Garcia, Fernando Vaño Garcia, Gil Arasa Verge
 
 **Resources**:
  - MetaCall Rust Loader Code: https://github.com/metacall/core/tree/5b592ac0e9a8e498e3e706623d0a788276f566e0/source/loaders/rs_loader
  - Previous Work: https://github.com/metacall/core/issues/443
-
 
 ---
 
@@ -253,7 +252,7 @@ Documentation will explain how to:
 
 **Expected outcomes**: A mini blog application with frontend, backend, and a Python-based AI service. The project should include markdown documentation and sample code.
 
-**Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
+**Possible mentors**: Jose Antonio Dominguez, Thomas Rory Gummerson, Alexandre Gimenez Fernandez, Raj Aryan
 
 **Resources**:
  - MetaCall Install: https://github.com/metacall/install
@@ -290,7 +289,7 @@ Documentation will include:
 
 **Expected outcomes**: A weather dashboard app with a clean UI, backend data fetching, and Python-powered analytics, all integrated and deployed using MetaCall.
 
-**Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
+**Possible mentors**: Jose Antonio Dominguez, Thomas Rory Gummerson, Alexandre Gimenez Fernandez, Raj Aryan
 
 **Resources**:
  - MetaCall Install: https://github.com/metacall/install
@@ -313,7 +312,7 @@ Last year we connected the [Distributables with the Core](https://github.com/met
 
 **Expected outcomes**: Full lifecycle working and validated for MacOS, Windows, Linux. Tested for master and tagging versions and also including the install.
 
-**Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
+**Possible mentors**: Raj Aryan, Harsh Bardhan Mishra, Vicente Eduardo Ferrer Garcia, Gil Arasa Verge, Ashish Kumar
 
 **Resources**:
  - MetaCall Core Windows Dispatch: https://github.com/metacall/core/blob/5b592ac0e9a8e498e3e706623d0a788276f566e0/.github/workflows/windows-test.yml#L68
@@ -339,7 +338,7 @@ Last year we implemented the [MetaCall Testing Center](https://github.com/metaca
 
 **Expected outcomes**: All the existing examples must work with the testing center, and this CI must be connected with the deploy, faas and install repos. The new examples must be added by using yaml and we must validate them. They also must work on Windows, Linux and MacOS. All the remaining features which are not implemented must be implemented to fullfill the requirements described.
 
-**Possible mentors**: Vicente Eduardo Ferrer Garcia, Gil Arasa Verge
+**Possible mentors**: Raj Aryan, Harsh Bardhan Mishra, Vicente Eduardo Ferrer Garcia, Gil Arasa Verge, Ashish Kumar
 
 **Resources**:
  - MetaCall Examples: https://github.com/metacall/examples
